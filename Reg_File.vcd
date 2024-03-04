@@ -1,0 +1,269 @@
+$date
+	Mon Mar 04 13:43:19 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Reg_File_TB $end
+$var parameter 32 ! ADDR_Width $end
+$var parameter 32 " MEM_WIDTH $end
+$var parameter 32 # MEM_DEPTH $end
+$var reg 16 $ WrData_tb [15:0] $end
+$var reg 4 % Address_tb [3:0] $end
+$var reg 1 & WrEn_tb $end
+$var reg 1 ' RdEn_tb $end
+$var reg 1 ( CLK_tb $end
+$var reg 1 ) RST_tb $end
+$var wire 1 * RdData_tb [15] $end
+$var wire 1 + RdData_tb [14] $end
+$var wire 1 , RdData_tb [13] $end
+$var wire 1 - RdData_tb [12] $end
+$var wire 1 . RdData_tb [11] $end
+$var wire 1 / RdData_tb [10] $end
+$var wire 1 0 RdData_tb [9] $end
+$var wire 1 1 RdData_tb [8] $end
+$var wire 1 2 RdData_tb [7] $end
+$var wire 1 3 RdData_tb [6] $end
+$var wire 1 4 RdData_tb [5] $end
+$var wire 1 5 RdData_tb [4] $end
+$var wire 1 6 RdData_tb [3] $end
+$var wire 1 7 RdData_tb [2] $end
+$var wire 1 8 RdData_tb [1] $end
+$var wire 1 9 RdData_tb [0] $end
+$scope module M0 $end
+$var parameter 32 : ADDR_Width $end
+$var parameter 32 ; MEM_WIDTH $end
+$var parameter 32 < MEM_DEPTH $end
+$var wire 1 = WrData [15] $end
+$var wire 1 > WrData [14] $end
+$var wire 1 ? WrData [13] $end
+$var wire 1 @ WrData [12] $end
+$var wire 1 A WrData [11] $end
+$var wire 1 B WrData [10] $end
+$var wire 1 C WrData [9] $end
+$var wire 1 D WrData [8] $end
+$var wire 1 E WrData [7] $end
+$var wire 1 F WrData [6] $end
+$var wire 1 G WrData [5] $end
+$var wire 1 H WrData [4] $end
+$var wire 1 I WrData [3] $end
+$var wire 1 J WrData [2] $end
+$var wire 1 K WrData [1] $end
+$var wire 1 L WrData [0] $end
+$var wire 1 M Address [3] $end
+$var wire 1 N Address [2] $end
+$var wire 1 O Address [1] $end
+$var wire 1 P Address [0] $end
+$var wire 1 Q WrEn $end
+$var wire 1 R RdEn $end
+$var wire 1 S CLK $end
+$var wire 1 T RST $end
+$var reg 16 U RdData [15:0] $end
+$var integer 32 V i $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+b0 %
+0&
+0'
+0(
+0)
+b0 U
+b100 !
+b10000 "
+b1000 #
+b100 :
+b10000 ;
+b1000 <
+b1000 V
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+$end
+#5
+1(
+1S
+b0 V
+b1 V
+b10 V
+b11 V
+b100 V
+b101 V
+b110 V
+b111 V
+b1000 V
+#10
+1)
+0(
+1T
+0S
+#15
+1(
+1S
+#20
+b1101 $
+b10 %
+1&
+0(
+1O
+1L
+1J
+1I
+1Q
+0S
+#25
+1(
+1S
+#30
+b1000 $
+b110 %
+0(
+1N
+0L
+0J
+0S
+#35
+1(
+1S
+#40
+0&
+b10 %
+1'
+0(
+0Q
+0N
+1R
+0S
+#45
+1(
+1S
+b1101 U
+19
+17
+16
+#50
+0(
+0S
+#55
+1(
+1S
+#60
+b110 %
+0(
+1N
+0S
+#65
+1(
+1S
+b1000 U
+09
+07
+#70
+0(
+0S
+#75
+1(
+1S
+#80
+1&
+b11 %
+0(
+1Q
+1P
+0N
+0S
+#85
+1(
+1S
+b0 U
+06
+#90
+0(
+0S
+#95
+1(
+1S
+#100
+0)
+0(
+0T
+0S
+b0 V
+b1 V
+b10 V
+b11 V
+b100 V
+b101 V
+b110 V
+b111 V
+b1000 V
+#105
+1(
+1S
+b0 V
+b1 V
+b10 V
+b11 V
+b100 V
+b101 V
+b110 V
+b111 V
+b1000 V
+#110
+0(
+0S
+#115
+1(
+1S
+b0 V
+b1 V
+b10 V
+b11 V
+b100 V
+b101 V
+b110 V
+b111 V
+b1000 V
